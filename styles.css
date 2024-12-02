@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}   
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 512px;
+    width: 512px;
+    margin: auto;
+    
+}
+
+.square{
+    border: 1px solid black;
+    width: 32px;
+    height: 32px;
+}
+
+.black {
+    background-color: black;
+}
